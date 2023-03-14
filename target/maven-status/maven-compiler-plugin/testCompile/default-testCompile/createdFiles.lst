@@ -1,0 +1,10 @@
+commonUtils\Utility.class
+testScripts\DBTesting.class
+testScripts\ExtentReportTest.class
+parallelScripts\SampleThreeTest.class
+parallelScripts\SampleTwoTest.class
+testScripts\RetrySampleTest.class
+testScripts\LoginPageTest.class
+parallelScripts\SampleOneTest.class
+testScripts\SampleOneTest.class
+testScripts\SampleTwoTest.class

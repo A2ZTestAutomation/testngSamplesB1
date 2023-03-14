@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SampleSuite" duration-ms="14494" started-at="2023-03-13T20:59:31 IST" finished-at="2023-03-13T20:59:45 IST">
+    <groups>
+    </groups>
+    <test name="ModuleOneTest" duration-ms="14494" started-at="2023-03-13T20:59:31 IST" finished-at="2023-03-13T20:59:45 IST">
+      <class name="testScripts.SampleOneTest">
+        <test-method status="PASS" signature="readFromProp()[pri:0, instance:testScripts.SampleOneTest@396e2f39]" name="readFromProp" is-config="true" duration-ms="7" started-at="2023-03-13T20:59:31 IST" finished-at="2023-03-13T20:59:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readFromProp -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testScripts.SampleOneTest@396e2f39]" name="setup" is-config="true" duration-ms="3104" started-at="2023-03-13T20:59:38 IST" finished-at="2023-03-13T20:59:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="seleniumSearchTest()[pri:0, instance:testScripts.SampleOneTest@396e2f39]" name="seleniumSearchTest" duration-ms="3730" started-at="2023-03-13T20:59:41 IST" finished-at="2023-03-13T20:59:45 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Selenium Tutorial - Google Search Page] but found [Selenium Tutorial - Google Search]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Selenium Tutorial - Google Search Page] but found [Selenium Tutorial - Google Search]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at testScripts.SampleOneTest.seleniumSearchTest(SampleOneTest.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:44)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:72)
+at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:10)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumSearchTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testScripts.SampleOneTest@396e2f39]" name="teardown" is-config="true" duration-ms="95" started-at="2023-03-13T20:59:45 IST" finished-at="2023-03-13T20:59:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testScripts.SampleOneTest -->
+      <class name="testScripts.SampleTwoTest">
+        <test-method status="PASS" signature="cypressSearchTest()[pri:0, instance:testScripts.SampleTwoTest@1060b431]" name="cypressSearchTest" duration-ms="7521" started-at="2023-03-13T20:59:31 IST" finished-at="2023-03-13T20:59:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cypressSearchTest -->
+      </class> <!-- testScripts.SampleTwoTest -->
+    </test> <!-- ModuleOneTest -->
+  </suite> <!-- SampleSuite -->
+</testng-results>
